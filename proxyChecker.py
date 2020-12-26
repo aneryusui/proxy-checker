@@ -81,7 +81,7 @@ class proxyChecker:
 
         self.remain = proxysCount
 
-        print(f" [{Fore.GREEN}*{Fore.RESET}] Loaded {0} lines from {1}".format(proxysCount, self.proxyFile ))
+        print(" [{Fore.GREEN}*{Fore.RESET}] Loaded {0} lines from {1}".format(proxysCount, self.proxyFile ))
 
 
     def checkProxy(self,proxy):
